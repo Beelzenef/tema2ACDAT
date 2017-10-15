@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ficheros en ACDAT</string>
+
+    <!-- Botones de inicio -->
+    <string name="btn_Ejercicio1">Ejercicio 1</string>
+    <string name="btn_Ejercicio2">Ejercicio 2</string>
+    <string name="btn_Ejercicio3">Ejercicio 3</string>
+    <string name="btn_Ejercicio4">Ejercicio 4</string>
+    <string name="btn_Ejercicio5">Ejercicio 5</string>
+    <string name="btn_Ejercicio6">Ejercicio 6</string>
+    <string name="btn_Ejercicio7">Ejercicio 7</string>
+</resources>

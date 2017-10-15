@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tema2acdat.InicioActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio1"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio2"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio3"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio4"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio5"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio6"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Ejercicio7"
+        android:onClick="onClik_lanzarExs"
+        android:id="@+id/btn_Ejercicio7"/>
+
+</LinearLayout>
