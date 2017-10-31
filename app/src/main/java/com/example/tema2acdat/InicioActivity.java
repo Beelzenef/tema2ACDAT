@@ -19,12 +19,12 @@ public class InicioActivity extends AppCompatActivity {
 
     public void onClik_lanzarExs(View v)
     {
-        Intent unIntent;
+        Intent unIntent = null;
 
         switch (v.getId())
         {
             case R.id.btn_Ejercicio1:
-
+                unIntent = new Intent(InicioActivity.this, AgendaActivity.class);
                 break;
             case R.id.btn_Ejercicio2:
 
@@ -45,5 +45,6 @@ public class InicioActivity extends AppCompatActivity {
 
                 break;
         }
+        startActivity(unIntent);
     }
 }

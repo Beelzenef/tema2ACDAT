@@ -9,4 +9,17 @@
     <string name="btn_Ejercicio5">Ejercicio 5</string>
     <string name="btn_Ejercicio6">Ejercicio 6</string>
     <string name="btn_Ejercicio7">Ejercicio 7</string>
+
+    <!-- Agenda (ejercicio 1) -->
+    <string name="txtV_NombreContacto">Nombre de contacto:</string>
+    <string name="txtV_NumeroContacto">Número de telefono:</string>
+    <string name="txtV_CorreoContacto">Correo electrónico:</string>
+    <string name="btn_GuardarDatos">Guardar datos</string>
+    <string name="btn_ConsultarDatos">Consultar contactos</string>
+    <string name="txtV_ListaContactos">Lista de contactos añadidos:</string>
+
+
+    <!-- Alarmas (ejercicio 2) -->
+
+    <!-- Dias lectivos (ejercicio 3) -->
 </resources>
