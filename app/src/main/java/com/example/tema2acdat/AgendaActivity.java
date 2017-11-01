@@ -7,6 +7,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.tema2acdat.operandoficheros.OperandoMemoria;
+import com.example.tema2acdat.operandoficheros.Resultado;
+
 public class AgendaActivity extends AppCompatActivity {
 
     private EditText edT_NumeroContacto;

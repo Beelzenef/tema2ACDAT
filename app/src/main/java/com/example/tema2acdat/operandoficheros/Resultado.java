@@ -1,4 +1,4 @@
-package com.example.tema2acdat;
+package com.example.tema2acdat.operandoficheros;
 
 /**
  * Created by usuario on 31/10/17.
