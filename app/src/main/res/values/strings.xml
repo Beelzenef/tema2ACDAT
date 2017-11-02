@@ -24,6 +24,8 @@
     <!-- Dias lectivos (ejercicio 3) -->
     <string name="txtV_FechaInicio">Fecha de inicio:</string>
     <string name="txtV_FechaFinal">Fecha de final:</string>
+    <string name="btn_ElegirFecha">Elegir fecha</string>
+    <string name="btn_Calcular">Calcular dias lectivos</string>
     <string name="txtV_DiasLectivos">Días lectivos entre las fechas selecciondas:</string>
 
 </resources>

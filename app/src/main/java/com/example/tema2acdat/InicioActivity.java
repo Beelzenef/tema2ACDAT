@@ -30,7 +30,7 @@ public class InicioActivity extends AppCompatActivity {
 
                 break;
             case R.id.btn_Ejercicio3:
-
+                unIntent = new Intent(InicioActivity.this, DiasLectivosActivity.class);
                 break;
             case R.id.btn_Ejercicio4:
 

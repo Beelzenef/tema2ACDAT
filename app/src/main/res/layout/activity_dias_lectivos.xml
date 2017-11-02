@@ -10,7 +10,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtV_FechaInicio"/>
+        android:text="@string/txtV_FechaInicio"
+        android:labelFor="@id/edT_FechaInicio"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onClick_DiasLectivos"
-            android:id="@+id/btn_FechaInicio"/>
+            android:id="@+id/btn_FechaInicio"
+            android:text="@string/btn_ElegirFecha"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -32,7 +34,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txtV_FechaFinal"/>
+        android:text="@string/txtV_FechaFinal"
+        android:labelFor="@id/edT_FechaFin"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,13 +44,15 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/btn_ElegirFecha"
             android:onClick="onClick_DiasLectivos"
             android:id="@+id/btn_FechaFinal"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edT_FechaFin"/>
+            android:id="@+id/edT_FechaFin"
+            android:inputType="date"/>
 
     </LinearLayout>
 
@@ -55,7 +60,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClick_DiasLectivos"
-        android:id="@+id/btn_CalcularDias"/>
+        android:id="@+id/btn_CalcularDias"
+        android:text="@string/btn_Calcular"/>
 
     <TextView
         android:layout_width="match_parent"
