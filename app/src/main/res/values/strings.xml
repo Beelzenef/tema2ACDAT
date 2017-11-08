@@ -28,4 +28,11 @@
     <string name="btn_Calcular">Calcular dias lectivos</string>
     <string name="txtV_DiasLectivos">Días lectivos entre las fechas selecciondas:</string>
 
+    <!-- Navegador con rdBs (ejercico 4) -->
+    <string name="rdB_Java">Java.net</string>
+    <string name="rdB_AAHC">AAHC</string>
+    <string name="rdB_Volley">Volley</string>
+    <string name="btn_Navegar">Navegar</string>
+    <string name="txtV_IntroduceURL">Introduce una URL</string>
+
 </resources>
