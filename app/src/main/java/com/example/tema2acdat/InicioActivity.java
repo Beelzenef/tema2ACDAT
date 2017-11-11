@@ -27,22 +27,22 @@ public class InicioActivity extends AppCompatActivity {
                 unIntent = new Intent(InicioActivity.this, AgendaActivity.class);
                 break;
             case R.id.btn_Ejercicio2:
-
+                unIntent = new Intent(InicioActivity.this, AlarmasActivity.class);
                 break;
             case R.id.btn_Ejercicio3:
                 unIntent = new Intent(InicioActivity.this, DiasLectivosActivity.class);
                 break;
             case R.id.btn_Ejercicio4:
-
+                unIntent = new Intent(InicioActivity.this, NavegadorActivity.class);
                 break;
             case R.id.btn_Ejercicio5:
-
+                unIntent = new Intent(InicioActivity.this, VisorImgsActivity.class);
                 break;
             case R.id.btn_Ejercicio6:
-
+                unIntent = new Intent(InicioActivity.this, DivisasActivity.class);
                 break;
             case R.id.btn_Ejercicio7:
-
+                unIntent = new Intent(InicioActivity.this, UploadFileActivity.class);
                 break;
         }
         startActivity(unIntent);

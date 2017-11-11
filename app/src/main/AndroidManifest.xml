@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tema2acdat">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +21,11 @@
         </activity>
         <activity android:name=".AgendaActivity" />
         <activity android:name=".DiasLectivosActivity" />
-        <activity android:name=".NavegadorActivity"></activity>
+        <activity android:name=".NavegadorActivity" />
+        <activity android:name=".VisorImgsActivity" />
+        <activity android:name=".DivisasActivity" />
+        <activity android:name=".UploadFileActivity" />
+        <activity android:name=".AlarmasActivity"></activity>
     </application>
 
 </manifest>

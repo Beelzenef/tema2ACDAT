@@ -35,4 +35,29 @@
     <string name="btn_Navegar">Navegar</string>
     <string name="txtV_IntroduceURL">Introduce una URL</string>
 
+    <!-- Descargar imagenes -->
+
+    <string name="btn_DescargarImgs">Buscar imagenes</string>
+    <string name="edT_URLImgs">Introduce tu URL</string>
+    <string name="btn_NextImg">Siguiente imagen</string>
+    <string name="btn_PrevImg">Imagen anterior</string>
+
+    <!-- Subir fichero -->
+    <string name="btn_BuscarFicheroUpload">Buscar fichero:</string>
+    <string name="btn_UploadFichero">Subir fichero</string>
+    <string name="txtV_BuscarFichero">Busca tu fichero:</string>
+
+    <!-- Alarmas -->
+    <string name="btn_ComenzarAlarmas">Comenzar alarmas</string>
+    <string name="txtV_TiempoAlarma">Tiempo</string>
+    <string name="txtV_TextoAlarma">Texto de notificación</string>
+
+    <!-- Cambio de divisas -->
+    <string name="radB_DolaresEuros">Dolares a euros</string>
+    <string name="radB_EurosDolares">Euros a dolares</string>
+    <string name="btn_Convertir">Convertir</string>
+    <string name="txtV_Dolares">Dolares</string>
+    <string name="txtV_Euros">Euros</string>
+    <string name="txtV_CambioActual">Cambio actual</string>
+
 </resources>
