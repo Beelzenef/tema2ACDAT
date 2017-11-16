@@ -2,13 +2,13 @@
     <string name="app_name">Ficheros en ACDAT</string>
 
     <!-- Botones de inicio -->
-    <string name="btn_Ejercicio1">Ejercicio 1</string>
-    <string name="btn_Ejercicio2">Ejercicio 2</string>
-    <string name="btn_Ejercicio3">Ejercicio 3</string>
-    <string name="btn_Ejercicio4">Ejercicio 4</string>
-    <string name="btn_Ejercicio5">Ejercicio 5</string>
-    <string name="btn_Ejercicio6">Ejercicio 6</string>
-    <string name="btn_Ejercicio7">Ejercicio 7</string>
+    <string name="btn_Ejercicio1">Ejercicio 1 - Agenda</string>
+    <string name="btn_Ejercicio2">Ejercicio 2 - Alarmas</string>
+    <string name="btn_Ejercicio3">Ejercicio 3 - Dias lectivos</string>
+    <string name="btn_Ejercicio4">Ejercicio 4 - Navegador</string>
+    <string name="btn_Ejercicio5">Ejercicio 5 - Downloads</string>
+    <string name="btn_Ejercicio6">Ejercicio 6 - Divisas</string>
+    <string name="btn_Ejercicio7">Ejercicio 7 - Uploads</string>
 
     <!-- Agenda (ejercicio 1) -->
     <string name="txtV_NombreContacto">Nombre de contacto:</string>
@@ -20,6 +20,10 @@
 
 
     <!-- Alarmas (ejercicio 2) -->
+
+    <string name="btn_ComenzarAlarmas">Comenzar alarmas</string>
+    <string name="txtV_TiempoAlarma">Tiempo</string>
+    <string name="txtV_TextoAlarma">Texto de notificación</string>
 
     <!-- Dias lectivos (ejercicio 3) -->
     <string name="txtV_FechaInicio">Fecha de inicio:</string>
@@ -35,24 +39,20 @@
     <string name="btn_Navegar">Navegar</string>
     <string name="txtV_IntroduceURL">Introduce una URL</string>
 
-    <!-- Descargar imagenes -->
+    <!-- Descargar imagenes (ejercicio 5 -->
 
     <string name="btn_DescargarImgs">Buscar imagenes</string>
     <string name="edT_URLImgs">Introduce tu URL</string>
     <string name="btn_NextImg">Siguiente imagen</string>
     <string name="btn_PrevImg">Imagen anterior</string>
 
-    <!-- Subir fichero -->
+    <!-- Subir fichero (ejercicio 7 -->
     <string name="btn_BuscarFicheroUpload">Buscar fichero:</string>
     <string name="btn_UploadFichero">Subir fichero</string>
     <string name="txtV_BuscarFichero">Busca tu fichero:</string>
 
-    <!-- Alarmas -->
-    <string name="btn_ComenzarAlarmas">Comenzar alarmas</string>
-    <string name="txtV_TiempoAlarma">Tiempo</string>
-    <string name="txtV_TextoAlarma">Texto de notificación</string>
 
-    <!-- Cambio de divisas -->
+    <!-- Cambio de divisas (ejercicio 6 -->
     <string name="radB_DolaresEuros">Dolares a euros</string>
     <string name="radB_EurosDolares">Euros a dolares</string>
     <string name="btn_Convertir">Convertir</string>

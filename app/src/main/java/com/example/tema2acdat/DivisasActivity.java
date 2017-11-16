@@ -1,5 +1,8 @@
 package com.example.tema2acdat;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -27,6 +30,8 @@ public class DivisasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_divisas);
 
+        miConversor = new Conversor();
+
         // Identificando controles
         btn_ConvertirMoneda = (Button) findViewById(R.id.btn_Conversion);
         edt_aDolares = (EditText) findViewById(R.id.edT_ADolares);
@@ -44,29 +49,34 @@ public class DivisasActivity extends AppCompatActivity {
         }
     }
 
+    private boolean isNetworkAvailable() {
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = cm.getActiveNetworkInfo();
+
+        return networkInfo != null && networkInfo.isConnected();
+    }
+
     void hacerCambio() {
-        establecerCambioMoneda();
+
+        if (isNetworkAvailable()) {
+            miConversor.setCambioFichero();
+        }
+        else {
+            miConversor.cambioDefault();
+        }
 
         // Seleccionando tipo de cambio
         if (radB_aDolares.isChecked()) {
-            if (edt_aEuros.getText().length() != 0 && edt_aEuros.getText().toString() != ".") {
+            if (edt_aEuros.getText().length() != 0 && !edt_aEuros.getText().toString().equals(".")) {
                 edt_aDolares.setText(miConversor.cambioADolares(edt_aEuros.getText().toString()));
                 Toast.makeText(this, "EUR --> USD", Toast.LENGTH_SHORT).show();
             }
-        } else {
-            if (edt_aDolares.getText().length() != 0 && edt_aDolares.getText().toString() != ".") {
+        }
+        else {
+            if (edt_aDolares.getText().length() != 0 && edt_aDolares.getText().toString().equals(".")) {
                 edt_aEuros.setText(miConversor.cambioAEuros(edt_aDolares.getText().toString()));
                 Toast.makeText(this, "USD --> EUR", Toast.LENGTH_SHORT).show();
             }
-        }
-    }
-
-    void establecerCambioMoneda() {
-        if (edt_CambioActual.getText().length() == 0) {
-            // Creando un conversor de monedas
-            miConversor = new Conversor();
-        } else {
-            miConversor = new Conversor(Double.parseDouble(edt_CambioActual.getText().toString()));
         }
     }
 }
