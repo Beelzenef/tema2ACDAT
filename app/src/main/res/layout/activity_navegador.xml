@@ -32,6 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/rdB_Volley"
+                    android:checked="true"
                     android:id="@+id/rdB_Volley"
                     android:onClick="onClick_Navegar"/>
 
