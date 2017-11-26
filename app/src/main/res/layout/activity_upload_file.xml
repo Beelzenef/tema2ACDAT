@@ -12,17 +12,15 @@
         android:layout_height="wrap_content"
         android:text="@string/txtV_BuscarFichero"/>
     
-    <Button
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_BuscarFicheroUpload"
-        android:onClick="onClick_uploadFicheros"
-        android:text="@string/btn_BuscarFicheroUpload"/>
+        android:id="@+id/edt_RutaFicheroSubir"/>
 
     <TextView
+        android:id="@+id/txtV_InfoFicheroUpload"
         android:layout_width="match_parent"
-        android:layout_height="235dp"
-        android:id="@+id/txtV_InfoFicheroUpload"/>
+        android:layout_height="32dp" />
 
     <Button
         android:layout_width="wrap_content"

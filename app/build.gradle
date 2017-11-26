@@ -19,7 +19,9 @@ android {
     }
 
     repositories {
-        mavenCentral()
+        maven {
+            url "http://dl.bintray.com/lukaville/maven"
+        }
     }
 }
 
@@ -28,11 +30,12 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile group: 'cz.msebera.android', name: 'httpclient', version: '4.4.1.2'
     testCompile 'junit:junit:4.12'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.nbsp:library:1.8'
 }
