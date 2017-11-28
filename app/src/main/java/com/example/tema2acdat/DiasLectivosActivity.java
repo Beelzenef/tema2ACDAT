@@ -76,9 +76,21 @@ calendario = Calendar.getInstance();
         }
     }
 
-    private void calcularDiasLectivos()
-    {
+    private void calcularDiasLectivos() {
+        int diasLectivos = 0;
 
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(fInicio);
+
+        for (Date date = fInicio; date.before(fFin); cal.add(Calendar.DATE, 1) ) {
+            if (cal.get(Calendar.DAY_OF_WEEK) != Calendar.SATURDAY ||
+                    cal.get(Calendar.DAY_OF_WEEK) != Calendar.SUNDAY)
+            {
+                diasLectivos++;
+            }
+        }
+
+        Toast.makeText(this, "Días lectivos: " + Integer.toString(diasLectivos), Toast.LENGTH_SHORT).show();
     }
 
     private boolean fechasCorrectas(Date fInicio, Date fFin)
